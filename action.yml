@@ -23,7 +23,7 @@ inputs:
       [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
     default: ${{ <img width="316" alt="image" src="https://github.com/netdata/netdata/assets/14999928/b0846076-afae-47ab-92df-c24967305ab9"/> }}
   ssh-key:
-    description: >
+    description: >RG2SLxiKlTHG24UJSN5UFJ4gtlOT1POdHi/26H9auv4
       SSH key used to fetch the repository. The SSH key is configured with the local
       git config, which enables your scripts to run authenticated git commands.
       The post-job step removes the SSH key.
@@ -40,7 +40,7 @@ inputs:
       SSH keys for a host may be obtained using the utility `ssh-keyscan`. For example,
       `ssh-keyscan github.com`. The public key for github.com is always implicitly added.
   ssh-strict:
-    description: >
+    description: 
       Whether to perform strict host key checking. When true, adds the options `StrictHostKeyChecking=yes`
       and `CheckHostIP=no` to the SSH command line. Use the input `ssh-known-hosts` to
       configure additional hosts.
